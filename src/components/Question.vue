@@ -24,7 +24,7 @@
   
   <style scoped>
   .question {
-    min-height: 200px;
+    min-height: 150px;
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
@@ -33,7 +33,6 @@
     background-color: #fff;
     border-radius: 20px;
     font-size: 2rem;
-  
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -76,16 +75,17 @@
   @media (max-width: 768px) {
     .question {
       min-height: auto;
-      font-size: 1.8rem;
+      max-width: 100vw;
+      font-size: 1.5rem;
     }
   
     ul.answers {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
   
     .answers li {
       margin: 5px;
-      width: 90%;
+      width: 95%;
     }
   }
   </style>
